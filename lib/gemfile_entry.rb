@@ -21,7 +21,6 @@ module GemfileEntry
     gem1_u = gem1.tr('-', '_')
     version = path_last_u.delete(gem1_u).delete('_').delete("\n")
     gemfile_line = "gem '#{gem1}', '#{version}'"
-    puts gemfile_line
     gemfile_line
   end
 end
