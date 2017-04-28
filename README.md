@@ -4,6 +4,7 @@
 [![Dependency Status](https://gemnasium.com/badges/github.com/jhsu802701/gemfile_entry.svg)](https://gemnasium.com/github.com/jhsu802701/gemfile_entry)
 [![security](https://hakiri.io/github/jhsu802701/gemfile_entry/master.svg)](https://hakiri.io/github/jhsu802701/gemfile_entry/master)
 [![Code Climate](https://codeclimate.com/github/jhsu802701/gemfile_entry/badges/gpa.svg)](https://codeclimate.com/github/jhsu802701/gemfile_entry)
+[![Test Coverage](https://codeclimate.com/github/jhsu802701/gemfile_entry/badges/coverage.svg)](https://codeclimate.com/github/jhsu802701/gemfile_entry/coverage)
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/gemfile_entry`. To experiment with that code, run `bin/console` for an interactive prompt.
 
