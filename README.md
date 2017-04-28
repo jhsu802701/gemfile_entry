@@ -6,9 +6,7 @@
 [![Code Climate](https://codeclimate.com/github/jhsu802701/gemfile_entry/badges/gpa.svg)](https://codeclimate.com/github/jhsu802701/gemfile_entry)
 [![Test Coverage](https://codeclimate.com/github/jhsu802701/gemfile_entry/badges/coverage.svg)](https://codeclimate.com/github/jhsu802701/gemfile_entry/coverage)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/gemfile_entry`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+GemfileEntry converts a specified gem into text to add to the Gemfile.  You have the option of specifying the latest version of the gem or the current version used on your project.
 
 ## Installation
 

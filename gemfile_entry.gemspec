@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.authors = ['Jason Hsu']
   spec.email = ['rubygems@jasonhsu.com']
 
-  spec.summary = 'This gem converts a specified gem into a text to add to the Gemfile.'
+  spec.summary = 'This gem converts a specified gem into text to add to the Gemfile.'
   spec.description = 'Create a Gemfile line that specifies either the latest version of a gem or the version currently in use.'
   spec.homepage = 'https://github.com/jhsu802701/gemfile_entry'
   spec.license = 'MIT'
