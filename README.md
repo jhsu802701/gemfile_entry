@@ -1,5 +1,7 @@
 # GemfileEntry
 
+[![Dependency Status](https://gemnasium.com/badges/github.com/jhsu802701/gemfile_entry.svg)](https://gemnasium.com/github.com/jhsu802701/gemfile_entry)
+
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/gemfile_entry`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem
