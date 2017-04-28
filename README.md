@@ -6,7 +6,8 @@
 [![Code Climate](https://codeclimate.com/github/jhsu802701/gemfile_entry/badges/gpa.svg)](https://codeclimate.com/github/jhsu802701/gemfile_entry)
 [![Test Coverage](https://codeclimate.com/github/jhsu802701/gemfile_entry/badges/coverage.svg)](https://codeclimate.com/github/jhsu802701/gemfile_entry/coverage)
 
-GemfileEntry converts a specified gem into text to add to the Gemfile.  You have the option of specifying the latest version of the gem or the current version used on your project.
+GemfileEntry converts a specified gem into text to add to the Gemfile.  You have the option of specifying the latest version of the gem or the current version used on your project.  I created
+this gem for use in my Rails Neutrino project, which automatically creates a new high-quality Rails app from scratch.
 
 ## Installation
 
@@ -26,7 +27,33 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Getting the Latest Version of a Gem
+* Enter the following command:
+```
+GemfileEntry.latest(name of gem)
+```
+* Example:
+```
+GemfileEntry.latest('rake')
+```
+yields
+```
+gem 'rake', '12.0.0'
+```
+
+### Getting the Currently Used Version of a Gem
+* Enter the following command:
+```
+GemfileEntry.active(name of gem)
+```
+* Example:
+```
+GemfileEntry.active('rake')
+```
+yields
+```
+gem 'rake', '10.5.0'
+```
 
 ## Development
 
