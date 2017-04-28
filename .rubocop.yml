@@ -1,0 +1,7 @@
+Metrics/BlockLength:
+  Exclude:
+    - gemfile_entry.gemspec
+
+Metrics/LineLength:
+  Exclude:
+    - gemfile_entry.gemspec
