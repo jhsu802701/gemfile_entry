@@ -1,5 +1,6 @@
 # GemfileEntry
 
+[![Gem Version](https://badge.fury.io/rb/gemfile_entry.svg)](https://badge.fury.io/rb/gemfile_entry)
 [![CircleCI](https://circleci.com/gh/jhsu802701/gemfile_entry.svg?style=svg)](https://circleci.com/gh/jhsu802701/gemfile_entry)
 [![Dependency Status](https://gemnasium.com/badges/github.com/jhsu802701/gemfile_entry.svg)](https://gemnasium.com/github.com/jhsu802701/gemfile_entry)
 [![security](https://hakiri.io/github/jhsu802701/gemfile_entry/master.svg)](https://hakiri.io/github/jhsu802701/gemfile_entry/master)
