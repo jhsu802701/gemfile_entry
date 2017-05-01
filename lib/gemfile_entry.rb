@@ -14,12 +14,12 @@ module GemfileEntry
   def self.active(gem1)
     # NOTE: The delete and gsub commands do not work for removing
     # substrings containing dashes.
-    # As a result, - is converted to _.
+    # As a result, - is converted to +.
     path = `bundle show #{gem1}`
     path_last = path.split('/').last
-    path_last_u = path_last.tr('-', '_')
-    gem1_u = gem1.tr('-', '_')
-    version = path_last_u.delete(gem1_u).delete('_').delete("\n")
+    path_last_u = path_last.tr('-', '+')
+    gem1_u = gem1.tr('-', '+')
+    version = path_last_u.gsub(gem1_u, '').delete('+').delete("\n")
     gemfile_line = "gem '#{gem1}', '#{version}'"
     gemfile_line
   end

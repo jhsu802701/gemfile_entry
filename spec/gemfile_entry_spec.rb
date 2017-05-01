@@ -34,11 +34,11 @@ RSpec.describe GemfileEntry do
     # Expected result of bundle show command based on name and version number
     # NOTE: The delete and gsub commands do not work for removing
     # substrings containing dashes.
-    # As a result, - is converted to _.
+    # As a result, - is converted to +.
     gline = GemfileEntry.active(gem1)
-    gline_u = gline.tr('-', '_')
-    gem1_u = gem1.tr('-', '_')
-    vnum = gline_u.delete("gem '#{gem1_u}', ").delete("'")
+    gline_u = gline.tr('-', '+')
+    gem1_u = gem1.tr('-', '+')
+    vnum = gline_u.gsub("gem '#{gem1_u}', ", '').delete("'")
     path2_last = "#{gem1}-#{vnum}\n"
 
     expect(path1_last).to eq(path2_last)
@@ -62,6 +62,7 @@ RSpec.describe GemfileEntry do
     check_gem_active('bundler-audit') # Has dash
     check_gem_active('gemsurance')
     check_gem_active('sandi_meter') # Has underscore
+    check_gem_active('sqlite3') # Has underscore
   end
 end
 # rubocop:enable Metrics/BlockLength
