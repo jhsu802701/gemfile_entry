@@ -12,6 +12,11 @@ this gem for use in my Rails Neutrino project, which automatically creates a new
 
 ## Installation
 
+This gem requires curl.  If you are in a Debian-based system, the command to install this is:
+```
+sudo apt-get install -y curl
+```
+
 Add this line to your application's Gemfile:
 
 ```ruby
